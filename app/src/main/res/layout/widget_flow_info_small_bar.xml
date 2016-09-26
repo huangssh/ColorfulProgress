@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_flow_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/tv_packagename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="---"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/tv_left"
+            android:textColor="@color/contentColor"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_packagename"
+            android:layout_marginBottom="5dp"
+            android:text=""
+            android:textColor="@color/contentColor"
+            android:textSize="12dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_packagename"
+            android:layout_toLeftOf="@+id/tv_packageflow"
+            android:gravity="bottom"
+            android:text="剩余"
+            android:textColor="@color/contentColor"
+            android:textSize="12dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@id/tv_packageflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_packagename"
+            android:gravity="bottom"
+            android:text="XX"
+            android:textColor="@color/contentColor"
+            android:textSize="12dp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <!-- 游标进度 -->
+
+    <RelativeLayout
+        android:id="@+id/relative_percent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="0dp">
+
+        <TextView
+            android:id="@+id/tv_percent"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/movepercent"
+            android:gravity="center_horizontal"
+            android:paddingBottom="2dp"
+            android:singleLine="true"
+            android:text="100%"
+            android:textColor="@color/white"
+            android:textSize="7dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_bg_green"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/progressbar_green_color" />
+
+            <ImageView
+                android:id="@+id/iv_bg_orange"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/progressbar_red_color" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlMealBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_meal_bar"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_minflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="0"
+            android:textColor="@color/contentColor"
+            android:textSize="11dp" />
+
+        <RelativeLayout
+            android:id="@+id/package_mid_elative"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/packagemidflow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/contentColor"
+                android:textSize="11dp" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/packagemaxflow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_minflow"
+            android:text="--x"
+            android:textColor="@color/contentColor"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

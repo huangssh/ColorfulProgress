@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlItemFlowMealSon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="2px"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="@color/white">
+
+        <com.huangssh.colorfulprogress.widget.FlowInfoSmallBar
+            android:id="@+id/flowInfoBarSon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ivArrowUp"
+            android:layout_below="@id/flowInfoBarSon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:background="@drawable/iv_meal_arrow_up"/>
+    </RelativeLayout>
+</LinearLayout>

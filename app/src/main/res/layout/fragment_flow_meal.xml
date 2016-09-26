@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myspace="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/new_base_background"
+    android:descendantFocusability="blocksDescendants"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rlFlowMeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <RelativeLayout
+                android:id="@+id/rl_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_this"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:drawableLeft="@drawable/ic_meal_flow_normal"
+                    android:gravity="center"
+                    android:text="  本月套餐内流量"
+                    android:textSize="15dp"
+                    android:textColor="@color/text_grey2" />
+
+                <TextView
+                    android:id="@+id/tv_last"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_this"
+                    android:drawableLeft="@drawable/ic_meal_flow_green"
+                    android:gravity="center"
+                    android:text="  上月结余流量  "
+                    android:textSize="13dp"
+                    android:textColor="@color/text_grey3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_this"
+                    android:layout_toRightOf="@id/tv_last"
+                    android:drawableLeft="@drawable/ic_meal_flow_orange"
+                    android:gravity="center"
+                    android:text="  本月流量"
+                    android:textSize="13dp"
+                    android:textColor="@color/text_grey3" />
+
+                <Button
+                    android:id="@+id/btnAddFlow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="gone"
+                    android:background="@drawable/bg_btn_add_flow" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tvFlowTip"
+                android:layout_below="@id/rl_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text=">>"
+                android:visibility="gone"
+                android:textColor="@color/text_red2" />
+        </RelativeLayout>
+
+        <com.huangssh.colorfulprogress.widget.CustomExpandableListView
+            android:id="@+id/exlv_group"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:listSelector="@color/transparent" />
+
+        <com.huangssh.colorfulprogress.widget.CustomExpandableListView
+            android:id="@+id/exlvGroupOther"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:listSelector="@color/transparent" />
+
+
+        <TextView
+            android:id="@+id/tvCardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="7dp"
+            android:drawableLeft="@drawable/ic_flow_card"
+            android:textSize="14dp"
+            android:text="  流量卡"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:id="@+id/rlCardNullTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="bottom|center_horizontal"
+            android:paddingBottom="20dp"
+            android:visibility="gone"
+            android:background="@drawable/ic_no_flow_card">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:text="您还未订购流量卡~" />
+        </RelativeLayout>
+
+        <com.huangssh.colorfulprogress.widget.CustomListView
+            android:id="@+id/lvFlowCard"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:listSelector="@color/transparent" />
+
+        <TextView
+            android:text="注：每月1-5日部分查询数据有所偏差，以致电\n        10000号或当地营业厅的查询结果为准"
+            style="@style/sTvMealTip" />
+
+        <LinearLayout
+            android:id="@+id/lLDetailQuery"
+            android:layout_margin="20dp"
+            style="@style/selfserver_quary_buttom_btn">
+
+            <TextView
+                style="@style/btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本月详单查询" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

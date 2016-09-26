@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_2e9d9b4fc8fe0005cdd4e27adb36233a7b3454d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_cc4be70cbf811fd6a1edf74a54f548d4fb59cfe7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_d081cb5437fa7560e49afa6a6cf4327c621ef76f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_d4567305dc7d2290d54ec609c5568298f82ff2a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_ca7dbfb623cd5a16f31ea7a321ccb185305d92c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_4b926cfb9fc5b0cb20734d3965a16584db570d8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_8dba3b73bae90dd9d45a298df8add78c7bad8bbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_f1db06fe39189153e45ac777a132943c074f7191.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_fc69113a39dac8aeed4ea9e755a0a80a30cc3f5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_3260b34c75633280743b5753ac65a3c23f67b782.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_7f42937f08d89f845458e9f28818a907e3520bec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.0"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\work\AsWorkSpace\ColorfulProgress\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_aeed0721741ab1c111d05ac07db32b23621d55f8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/new_base_background"
+    android:descendantFocusability="blocksDescendants"
+    android:fillViewport="true"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTip"
+            android:drawableLeft="@drawable/ic_meal_message_normal"
+            android:text="  本月套餐内短信"
+            style="@style/meal_info_text" />
+
+
+        <com.huangssh.colorfulprogress.widget.CustomExpandableListView
+            android:id="@+id/exlv_message_meal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:listSelector="@color/transparent" />
+
+        <TextView
+            style="@style/sTvMealTip"
+            android:text="注：每月1-5日部分查询数据有所偏差，以致电\n        10000号或当地营业厅的查询结果为准" />
+
+        <LinearLayout
+            android:id="@+id/lLDetailQuery"
+            android:layout_margin="20dp"
+            style="@style/selfserver_quary_buttom_btn">
+
+            <TextView
+                style="@style/btn_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="本月详单查询" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

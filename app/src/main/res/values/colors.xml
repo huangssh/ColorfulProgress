@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="new_base_background">#f7f8f9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange1">#f88b00</color>
+    <color name="contentColor">#969595</color>
+    <!--流量查询-->
+    <color name="text_grey2">#868f98</color>
+    <color name ="text_red">#f06751</color>
+    <color name="text_red2">#fc916e</color>
+    <color name="text_grey3">#bbc4ce</color>
+    <color name="transparent">#00000000</color>
+</resources>
